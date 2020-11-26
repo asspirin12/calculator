@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body> 
+    <div class="calculator">
+        <div class="calculator-display" id="calculator-display">0</div>
+        <div class="calculator-keys">
+            <button class="clear" data-action="clear">AC</button>
+            <button data-action="negative">–/+</button>
+            <button data-action="root">&#8730;</button>
+            <button class="operator" data-action="add">+</button>
+            
+            <button data-action="number">7</button>
+            <button data-action="number">8</button>
+            <button data-action="number">9</button>
+            <button class="operator" data-action="subtract">–</button>
+            <button data-action="number">4</button>
+            <button data-action="number">5</button>
+            <button data-action="number">6</button>
+            <button class="operator" data-action="multiply">&times;</button>
+            <button data-action="number">1</button>
+            <button data-action="number">2</button>
+            <button data-action="number">3</button>
+            <button class="operator" data-action="divide">÷</button>
+            <button data-action="number">0</button>
+            <button data-action="decimal">.</button>
+            <button class="calculate" data-action="calculate">=</button>
+            <button data-action="power">x<sup>y</sup></button>
+            </div>
+    </div>
+
+    <div class="instructions">
+        <h6>Как работать с калькулятором:</h6>
+        <p>&bull; Убрать Error можно только кнопкой AC.</p>
+        <p>&bull; Чтобы выполнить операцию с корнем, сначала нужно набрать число, потом нажать &#8730;, а потом равно. 
+            Также после знака &#8730; можно нажимать любой другой оператор - вычисление будет продолжено.</p>
+    </div>
+</body>
+</html>
